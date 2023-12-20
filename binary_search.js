@@ -1,4 +1,4 @@
-function binarySearch(myArray, n, t) { //n is array number of elements and t is target which we find in an array
+function binarySearch(myArray, n, t) { //n is array number of elements t is target which we find in an array
     let left, right, mid
     left = 0
     right = n - 1
@@ -19,6 +19,6 @@ function binarySearch(myArray, n, t) { //n is array number of elements and t is 
 
 let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 let n = 19
-let t = 5
+let t = 2
 const answer = binarySearch(myArray, n, t)
 console.log("Answer is :",answer);
